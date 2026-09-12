@@ -6,8 +6,8 @@ I believe **benchmarks beat opinions**, **simplicity beats cleverness**, and **p
 
 ### What I'm Working On
 
-- Turning my Obsidian vault into an **ontology** — the same 6,452 notes modelled twice, as a SQLite property graph and then as RDF/OWL, to find out where a knowledge graph stops and an ontology starts ([vault-ontology](https://github.com/tomato-data/vault-ontology))
-- Evolving my **TDD workflow** — combining design trade-off analysis, 46 object-design rules, and pattern-based refactoring signals (validated end-to-end in [Checkout Engine](https://github.com/tomato-data/checkout-engine))
+- Turning my Obsidian vault into an **ontology** — the same 6,452 notes modelled twice, as a SQLite property graph and then as RDF/OWL, to find out where a knowledge graph stops and an ontology starts ([vault-ontology](https://github.com/tomato-vault/vault-ontology))
+- Evolving my **TDD workflow** — combining design trade-off analysis, 46 object-design rules, and pattern-based refactoring signals (validated end-to-end in [Checkout Engine](https://github.com/tomato-vault/checkout-engine))
 - Turning technical books into **operational rule sets** I can apply during code review (Object Design Style Guide: 46 rules, SQL Cookbook: 28 rules)
 - Managing 6,000+ notes in Obsidian with a custom knowledge promotion pipeline — dev knowledge (Backend, DevOps, DB, AI) at the core, surrounded by book reviews, video logs, a Mind Compiler for refining raw thoughts, and a Logic Forge for sharpening arguments
 
@@ -21,12 +21,12 @@ I believe **benchmarks beat opinions**, **simplicity beats cleverness**, and **p
 
 | Project                                                                       | What & Why                                                                                                                 | Stack                                                   |
 | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| [vault-ontology](https://github.com/tomato-data/vault-ontology) *(in progress)* | Rebuilding a working tool from a blank file, with the original pinned beside it as an answer key I don't open until I'm stuck. Then the same 6,452 notes, modelled a second time as RDF/OWL. Part 1 done: 162 tests, zero dependencies. | Python, SQLite, rdflib, SPARQL, pytest |
-| [voxprep](https://github.com/tomato-data/voxprep)                             | The whole GPT-SoVITS lifecycle behind one CLI — slice → asr → **review** → train → infer — including the interactive review step upstream never had. Preprocessing rebuilt TDD-first, ML stages ported in. | Python, Typer, Rich, pytest, uv |
-| [Checkout Engine](https://github.com/tomato-data/checkout-engine)             | A 9-phase TDD evolution where design patterns arrive only when Forces require them. Methodology validation over 3 days, not a product. | Python, FastAPI, pytest |
-| [Backend Benchmark Lab](https://github.com/tomato-data/Backend-Benchmark-Lab) | 5 frameworks, 26 scenarios, 10-run averages. Same logic, different implementations.                                        | FastAPI, Django, Express, Rails, k6, Docker, Prometheus |
-| [Household Ledger](https://github.com/tomato-data/household_ledger)           | Personal finance app. Migrated from React + FastAPI + PostgreSQL to a single Rails 8 monolith. Zero external dependencies. | Rails 8, SQLite, Hotwire, Terraform, Proxmox            |
-| [Redis Pattern Lab](https://github.com/tomato-data/Redis-Pattern-Lab)         | 12 production-grade Redis patterns, benchmarked against SQLite.                                                            | FastAPI, Redis, Docker                                  |
+| [vault-ontology](https://github.com/tomato-vault/vault-ontology) *(in progress)* | Rebuilding a working tool from a blank file, with the original pinned beside it as an answer key I don't open until I'm stuck. Then the same 6,452 notes, modelled a second time as RDF/OWL. Part 1 done: 162 tests, zero dependencies. | Python, SQLite, rdflib, SPARQL, pytest |
+| [voxprep](https://github.com/tomato-vault/voxprep)                             | The whole GPT-SoVITS lifecycle behind one CLI — slice → asr → **review** → train → infer — including the interactive review step upstream never had. Preprocessing rebuilt TDD-first, ML stages ported in. | Python, Typer, Rich, pytest, uv |
+| [Checkout Engine](https://github.com/tomato-vault/checkout-engine)             | A 9-phase TDD evolution where design patterns arrive only when Forces require them. Methodology validation over 3 days, not a product. | Python, FastAPI, pytest |
+| [Backend Benchmark Lab](https://github.com/tomato-vault/Backend-Benchmark-Lab) | 5 frameworks, 26 scenarios, 10-run averages. Same logic, different implementations.                                        | FastAPI, Django, Express, Rails, k6, Docker, Prometheus |
+| [Household Ledger](https://github.com/tomato-vault/household_ledger)           | Personal finance app. Migrated from React + FastAPI + PostgreSQL to a single Rails 8 monolith. Zero external dependencies. | Rails 8, SQLite, Hotwire, Terraform, Proxmox            |
+| [Redis Pattern Lab](https://github.com/tomato-vault/Redis-Pattern-Lab)         | 12 production-grade Redis patterns, benchmarked against SQLite.                                                            | FastAPI, Redis, Docker                                  |
 
 ---
 
